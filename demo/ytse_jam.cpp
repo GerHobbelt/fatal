@@ -350,7 +350,7 @@ ytse_jam::result_t ytse_jam::handle(std::string const &command, request_args &ar
   return result;
 }
 
-int main() {
+int main(void) {
   ytse_jam engine;
   std::cout << "ytse jam db engine: ready" << std::endl << std::endl;
 

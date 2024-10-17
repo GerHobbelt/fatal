@@ -11,7 +11,7 @@
 #include <fatal/type/deprecated/type_list.h>
 #include <fatal/type/sort.h>
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define WRAP(Value) std::integral_constant<int, Value>

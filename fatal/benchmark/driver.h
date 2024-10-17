@@ -18,7 +18,7 @@
 // DRIVER //
 ////////////
 
-int main() {
+int main(void) {
   fatal::benchmark::run(std::cout);
 
   return 0;

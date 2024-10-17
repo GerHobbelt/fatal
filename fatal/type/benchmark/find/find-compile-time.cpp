@@ -31,4 +31,4 @@ struct find_number_equiv {
 using roundtripped = transform<numbers, find_number_fancy>;
 static_assert(std::is_same<roundtripped, numbers>::value, "broken");
 
-int main() {}
+int main(void) {}

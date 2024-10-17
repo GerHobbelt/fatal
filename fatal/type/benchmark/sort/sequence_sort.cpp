@@ -11,7 +11,7 @@
 #include <fatal/type/sequence.h>
 #include <fatal/type/sort.h>
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define OUTER(...) \

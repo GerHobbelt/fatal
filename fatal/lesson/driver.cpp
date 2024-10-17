@@ -9,7 +9,7 @@
 
 #include <fatal/lesson/lesson.h>
 
-int main() {
+int main(void) {
   fatal::lesson::registry::run();
   return 0;
 }

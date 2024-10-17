@@ -12,7 +12,7 @@
 
 template <int> struct foo {};
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define INNER(Index) \

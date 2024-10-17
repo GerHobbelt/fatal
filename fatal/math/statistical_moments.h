@@ -214,7 +214,7 @@ struct statistical_moments {
    *      << std::endl;
    *  }
    *
-   *  int main() {
+   *  int main(void) {
    *    statistical_moments<> moments1;
    *    statistical_moments<> moments2;
    *

@@ -19,7 +19,7 @@ struct key {
   using apply = std::integral_constant<std::size_t, T::value % (Groups + 1)>;
 };
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define INNER(Inner) \

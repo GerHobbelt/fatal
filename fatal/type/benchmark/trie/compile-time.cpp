@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main(void) {
   using namespace fatal;
 
   for (std::string needle; std::cin >> needle; ) {

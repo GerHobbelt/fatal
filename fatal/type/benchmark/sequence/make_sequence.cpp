@@ -12,7 +12,7 @@
 
 #include <cstdint>
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define OUTER(Size) \

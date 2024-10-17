@@ -16,7 +16,7 @@ struct flt {
   using apply = std::integral_constant<bool, Value % 2 == 0>;
 };
 
-int main() {
+int main(void) {
   using namespace fatal;
 
 # define OUTER(...) \
