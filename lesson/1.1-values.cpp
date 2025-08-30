@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#include <fatal/lesson/driver.h>
+#include <fatal/lesson/lesson.h>
 
 namespace lesson {
 
